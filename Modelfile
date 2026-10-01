@@ -1,0 +1,4 @@
+FROM ./models/intern-decision-0.8b-fp16.gguf
+
+PARAMETER temperature 1.992418
+PARAMETER stop "<|im_end|>"
