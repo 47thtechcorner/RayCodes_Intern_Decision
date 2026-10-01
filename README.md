@@ -11,7 +11,7 @@
 
 | Step 1: Input | Step 2: AI Action | Step 3: Result |
 |---|---|---|
-| Multimodal input document (images) & schema questions in `inputs/triage_batch.json` | Masked single-token forward pass across candidate logits | Calibrated JSON probability distribution & instant decision routing |
+| Multimodal input document (images) dropped directly in the `inputs/` folder | Masked single-token forward pass across candidate logits | Calibrated JSON probability distribution & instant decision routing |
 
 ## ⚡ Features
 
@@ -31,7 +31,7 @@ Invoke-WebRequest -Uri "https://huggingface.co/bombdefuser-124/Intern-Decision-0
 
 ## 🚀 Quick Start (Multimodal Document Triage)
 
-1. **Prepare Inputs**: Mixed invoices, receipts, tax forms, and screenshots are defined in `inputs/triage_batch.json`.
+1. **Prepare Inputs**: Simply drop any mixed invoice, receipt, tax form, or screenshot images directly into the `inputs/` directory. No JSON setup required!
 2. **Run Inference**: Execute the single-pass document triage pipeline.
 
 ```powershell
@@ -49,7 +49,7 @@ python main.py
 │   ├── intern-decision_overview.md
 │   └── test_main.py
 ├── inputs/
-│   └── triage_batch.json
+│   └── (Drop your .png / .jpg images here)
 ├── models/
 │   └── intern-decision-0.8b-fp16.gguf
 ├── outputs/
