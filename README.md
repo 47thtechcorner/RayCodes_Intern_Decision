@@ -1,8 +1,8 @@
 <div align="center">
-  <a href="[YOUTUBE_URL]">
-    <img src="https://img.youtube.com/vi/[YOUTUBE_ID]/0.jpg" alt="[YOUTUBE_TITLE]">
+  <a href="https://youtu.be/vOSHP5FTTK4">
+    <img src="https://img.youtube.com/vi/vOSHP5FTTK4/0.jpg" alt="Qwen 3.5 0.8B Multimodal Upgrade: Turns Images Into Actions In 34ms! (Intern Decision Setup)">
   </a>
-  <h3>📺 <a href="[YOUTUBE_URL]">Watch the full tutorial on YouTube</a></h3>
+  <h3>📺 <a href="https://youtu.be/vOSHP5FTTK4">Watch the full tutorial on YouTube</a></h3>
 </div>
 
 # 🧠 Intern Decision Structured AI Agent
